@@ -1,0 +1,121 @@
+.banner-productos {
+	width: 100%;
+	height: 360px;
+	background-image: linear-gradient(transparent, #fffad2a5), url(https://media.endclothing.com/end-features/f_auto,q_auto:eco,w_1520/prodfeatures/b4e56f25-6281-49bb-926e-d2d224a06604_05-05-23_AsicsGelNYC_FeaturesLandscape_EBColage.jpg?auto=compress,format);
+	background-size: cover;
+	object-fit: cover;
+	background-position: center;
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		font-size: 3.125rem;
+		font-family: map-get($fuentes, principal);
+		font-weight: 700;
+		color: $color_4;
+		position: absolute;
+		left: 40%;
+		top: 35%;
+	}
+}
+.breadcrumb {
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	list-style: none;
+	text-decoration: none;
+	color: $color_1;
+	font-family: map-get($fuentes, secundaria);
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	list-style: none;
+	text-decoration: none;
+	color: $color_1;
+	font-family: map-get($fuentes, secundaria);
+}
+.dropdown {
+	margin-left: 40px;
+	display: grid;
+	grid-template-columns: repeat(6, 100px);
+	justify-content: flex-start;
+	margin-right: 100px;
+	margin-left: 40px;
+	display: grid;
+	grid-template-columns: repeat(6, 100px);
+	justify-content: flex-start;
+	margin-right: 100px;
+	.btn {
+		padding: 10px 20px;
+		grid-column: 1 / 2;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		color: $color_5;
+		background-color: $background-color_2;
+		padding: 10px 20px;
+		grid-column: 1 / 2;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		color: $color_5;
+		background-color: $background-color_2;
+	}
+}
+.galeria-productos {
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	column-gap: 20px;
+	row-gap: 30px;
+	display: grid;
+	grid-template-columns: repeat(4, 300px);
+	justify-content: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	column-gap: 20px;
+	row-gap: 30px;
+	img {
+		align-items: center;
+		justify-self: center;
+		border-radius: 10px;
+		max-width: 300px;
+		max-height: 400px;
+		align-items: center;
+		justify-self: center;
+		border-radius: 10px;
+		max-width: 300px;
+		max-height: 400px;
+		&:hover {
+			filter: brightness(80%);
+			filter: brightness(80%);
+		}
+	}
+}
+.producto-content {
+	h6 {
+		font-family: map-get($fuentes, secundaria);
+		font-weight: 600;
+		margin-top: 10px;
+		font-family: map-get($fuentes, secundaria);
+		font-weight: 600;
+		margin-top: 10px;
+	}
+}
+.page-link {
+	list-style: none;
+	text-decoration: none;
+	color: $color_1;
+	background-color: $background-color_1;
+	margin-bottom: 20px;
+	list-style: none;
+	text-decoration: none;
+	color: $color_1;
+	background-color: $background-color_1;
+	margin-bottom: 20px;
+}

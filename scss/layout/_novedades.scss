@@ -1,0 +1,21 @@
+.banner-novedades {
+	width: 100%;
+	height: 360px;
+	background-image: linear-gradient(transparent, #fffad2a5), url(../assets/img/img-banner-novedades.jpeg);
+	background-size: cover;
+	object-fit: cover;
+	background-position: bottom;
+	h1 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+		font-size: 3.125rem;
+		font-family: map-get($fuentes, principal);
+		font-weight: 700;
+		color: $color_4;
+		position: absolute;
+		left: 40%;
+		top: 35%;
+	}
+}

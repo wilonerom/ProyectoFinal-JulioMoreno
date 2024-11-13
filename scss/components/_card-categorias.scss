@@ -1,0 +1,124 @@
+.titulo-topseller {
+	text-align: left;
+	font-family: map-get($fuentes, principal);
+	font-size: 2rem;
+	font-weight: 800;
+	color: $color_1;
+	padding: 40px;
+	padding-left: 60px;
+	margin-top: 10px;
+}
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(2, 500px);
+	gap: 30px;
+	justify-content: center;
+	justify-items: center;
+}
+.card {
+	width: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: left;
+	position: relative;
+	img {
+		width: 100%;
+		height: 500px;
+		object-fit: cover;
+		transition: ease 0.5s;
+		&:hover {
+			filter: brightness(60%);
+		}
+	}
+	h2 {
+		font-size: 1rem;
+		margin-bottom: 10px;
+		font-family: map-get($fuentes, secundaria);
+		font-weight: 700;
+	}
+}
+.card-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px;
+	color: $color_4;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	background-color: $background-color_4;
+	color: $color_6;
+	text-decoration: none;
+	font-size: 1rem;
+	font-weight: 600;
+	border-radius: 25px;
+	margin-top: 10px;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_6;
+	}
+}
+.categorias {
+	text-align: center;
+	padding: 20px;
+	h2 {
+		margin-bottom: 20px;
+		text-align: left;
+		padding-left: 40px;
+		font-family: map-get($fuentes, principal);
+		font-size: 2rem;
+		font-weight: 800;
+		color: $color_1;
+		margin-top: 80px;
+	}
+}
+.categoria-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 340px);
+	gap: 20px;
+	justify-content: center;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+.categoria-item {
+	max-width: 336px;
+	max-height: 448px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		align-items: center;
+		transition: ease .3s;
+		transition: filter 0.5s;
+		&:hover {
+			filter: brightness(50%);
+		}
+	}
+}
+.categoria-boton {
+	margin-top: 40px;
+	padding: 15px 50px;
+	font-size: 1.125rem;
+	font-family: map-get($fuentes, secundaria);
+	font-weight: 600;
+	cursor: pointer;
+	background-color: $background-color_2;
+	color: $color_6;
+	border: none;
+	border-radius: 25px;
+	transition: background-color 0.3s ease;
+	text-decoration: none;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_6;
+	}
+}

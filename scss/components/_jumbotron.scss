@@ -1,0 +1,13 @@
+.reseller-title {
+	font-size: 2.1875rem;
+	font-family: map-get($fuentes, principal);
+	margin-right: 15px;
+}
+.reseller-info {
+	font-family: map-get($fuentes, secundaria);
+	font-size: 1rem;
+	line-height: 23px;
+	text-align: left;
+	padding-bottom: 15px;
+	margin-right: 15px;
+}

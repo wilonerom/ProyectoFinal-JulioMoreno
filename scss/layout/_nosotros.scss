@@ -1,0 +1,46 @@
+.img-fluid {
+	border-radius: 15px;
+}
+.nosotros-title {
+	font-size: 2.1875rem;
+}
+.nosotros-info {
+	font-size: 1rem;
+	line-height: 23px;
+	text-align: left;
+}
+.container-contador {
+	display: grid;
+	grid-template-columns: repeat(4,200px);
+	justify-content: center;
+	margin: 30px 25px;
+}
+.contador-info {
+	border-radius: 8px;
+	margin: 5px;
+	background-image: linear-gradient(to top, #f9f9f945, #ebebeb2a, #dddddd2a, #cfcfcf2a, #8989892a);
+	h3 {
+		font-family: map-get($fuentes, secundaria);
+		font-weight: 800;
+		color: $color_7;
+		padding-top: 12px;
+		margin-bottom: 0;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+	p {
+		font-family: map-get($fuentes, secundaria);
+		font-size: .875rem;
+		font-weight: 300;
+		letter-spacing: 2px;
+		color: $color_8;
+		padding-bottom: 12px;
+	}
+}
+p {
+	margin-bottom: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
