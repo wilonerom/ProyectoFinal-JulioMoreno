@@ -158,19 +158,21 @@ p {
   background-image: linear-gradient(transparent, #fffad2a5), url(https://media.endclothing.com/end-features/f_auto,q_auto:eco,w_1520/prodfeatures/b4e56f25-6281-49bb-926e-d2d224a06604_05-05-23_AsicsGelNYC_FeaturesLandscape_EBColage.jpg?auto=compress,format);
   background-size: cover;
   object-fit: cover;
-  background-position: center; }
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px; }
   .banner-productos h1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
     margin: 0;
+    margin: 1.5em auto;
+    align-items: center;
+    justify-content: center;
     font-size: 3.125rem;
     font-family: "Glegoo";
     font-weight: 700;
-    color: #262626;
-    position: absolute;
-    left: 40%;
-    top: 35%; }
+    color: #262626; }
 
 .breadcrumb {
   margin-left: 40px;
@@ -650,12 +652,6 @@ p {
   .reseller-img img {
     width: 400px;
     height: 400px; }
-  .banner-productos h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 35%;
-    top: 35%; }
   .galeria-productos {
     grid-template-columns: repeat(2, 300px);
     column-gap: 20px;
@@ -758,12 +754,6 @@ p {
     padding-bottom: 20px; }
   .banner-productos {
     height: 300px; }
-    .banner-productos h1 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      left: 32%;
-      top: 32%; }
   .galeria-productos {
     grid-template-columns: repeat(2, 300px);
     column-gap: 20px;
@@ -898,11 +888,7 @@ p {
     width: 230px;
     height: 230px; }
   .banner-productos h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 35%;
-    top: 35%; }
+    font-size: 2.5rem; }
   .galeria-productos {
     grid-template-columns: repeat(2, 260px);
     column-gap: 20px;
@@ -933,13 +919,7 @@ p {
     letter-spacing: -1;
     border-radius: 20px;
     transition: background-color 0.3s ease;
-    text-align: center; }
-  .banner-productos h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 30%;
-    top: 30%; } }
+    text-align: center; } }
 
 @media (max-width: 581px) {
   .grid-container {
@@ -1069,12 +1049,7 @@ p {
     .card img {
       height: auto; }
   .banner-productos h1 {
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 25%;
-    top: 33%; }
+    font-size: 2.5rem; }
   .galeria-productos {
     grid-template-columns: repeat(2, 170px);
     column-gap: 15px;
@@ -1149,12 +1124,7 @@ p {
     font-size: .625rem;
     justify-content: center; }
   .banner-productos h1 {
-    font-size: 2.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 20%;
-    top: 33%; }
+    font-size: 2.5rem; }
   .galeria-productos {
     grid-template-columns: repeat(1, 250px);
     column-gap: 15px;

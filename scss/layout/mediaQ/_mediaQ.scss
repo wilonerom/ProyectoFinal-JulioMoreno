@@ -144,15 +144,6 @@
 			height: 400px;
 		}
 	}
-	.banner-productos {
-		h1 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			left: 35%;
-			top: 35%;
-		}
-	}
 	.galeria-productos {
 		grid-template-columns: repeat(2, 300px);
 		column-gap: 20px;
@@ -294,13 +285,6 @@
 	}
 	.banner-productos {
 		height: 300px;
-		h1 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			left: 32%;
-			top: 32%;
-		}
 	}
 	.galeria-productos {
 		grid-template-columns: repeat(2, 300px);
@@ -480,11 +464,7 @@
 	}
 	.banner-productos {
 		h1 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			left: 35%;
-			top: 35%;
+		font-size: 2.5rem;
 		}
 	}
 	.galeria-productos {
@@ -525,15 +505,6 @@
 		border-radius: 20px;
 		transition: background-color 0.3s ease;
 		text-align: center;
-	}
-	.banner-productos {
-		h1 {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			left: 30%;
-			top: 30%;
-		}
 	}
 }
 @media (max-width: 581px) {
@@ -674,6 +645,7 @@
 		}
 	}
 }
+
 @media (max-width: 426px) {
 	.hero-content {
 		text-align: center;
@@ -707,11 +679,6 @@
 	.banner-productos {
 		h1 {
 			font-size: 2.5rem;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			left: 25%;
-			top: 33%;
 		}
 	}
 	.galeria-productos {
@@ -814,11 +781,6 @@
 	.banner-productos {
 		h1 {
 			font-size: 2.5rem;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			left: 20%;
-			top: 33%;
 		}
 	}
 	.galeria-productos {
