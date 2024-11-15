@@ -184,35 +184,15 @@ p {
   list-style: none;
   text-decoration: none;
   color: #241d19;
-  font-family: "Roboto Flex";
-  margin-left: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  padding-left: 10px;
-  list-style: none;
-  text-decoration: none;
-  color: #241d19;
   font-family: "Roboto Flex"; }
 
 .dropdown {
   margin-left: 40px;
-  display: grid;
-  grid-template-columns: repeat(6, 100px);
-  justify-content: flex-start;
   margin-right: 100px;
-  margin-left: 40px;
   display: grid;
   grid-template-columns: repeat(6, 100px);
-  justify-content: flex-start;
-  margin-right: 100px; }
+  justify-content: flex-start; }
   .dropdown .btn {
-    padding: 10px 20px;
-    grid-column: 1 / 2;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    color: #D8D2C2;
-    background-color: #241d19;
     padding: 10px 20px;
     grid-column: 1 / 2;
     align-items: center;
@@ -228,43 +208,27 @@ p {
   margin-top: 50px;
   margin-bottom: 50px;
   column-gap: 20px;
-  row-gap: 30px;
-  display: grid;
-  grid-template-columns: repeat(4, 300px);
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  column-gap: 20px;
   row-gap: 30px; }
   .galeria-productos img {
     align-items: center;
     justify-self: center;
     border-radius: 10px;
     max-width: 300px;
-    max-height: 400px;
-    align-items: center;
-    justify-self: center;
-    border-radius: 10px;
-    max-width: 300px;
     max-height: 400px; }
     .galeria-productos img:hover {
-      filter: brightness(80%);
       filter: brightness(80%); }
 
 .producto-content h6 {
   font-family: "Roboto Flex";
   font-weight: 600;
-  margin-top: 10px;
-  font-family: "Roboto Flex";
-  font-weight: 600;
   margin-top: 10px; }
 
+.producto-content p {
+  font-family: "Roboto Flex";
+  font-weight: 400;
+  text-align: left; }
+
 .page-link {
-  list-style: none;
-  text-decoration: none;
-  color: #241d19;
-  background-color: #D8D2C2;
-  margin-bottom: 20px;
   list-style: none;
   text-decoration: none;
   color: #241d19;
@@ -1058,7 +1022,11 @@ p {
     row-gap: 20px; }
     .galeria-productos img {
       max-width: 170px;
-      max-height: 270px; } }
+      max-height: 270px; }
+  .producto-content h6 {
+    font-size: .875rem; }
+  .producto-content p {
+    font-size: .75rem; } }
 
 @media (max-width: 376px) {
   .grid-container {

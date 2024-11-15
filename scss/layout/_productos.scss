@@ -30,34 +30,14 @@
 	text-decoration: none;
 	color: $color_1;
 	font-family: map-get($fuentes, secundaria);
-	margin-left: 40px;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding-left: 10px;
-	list-style: none;
-	text-decoration: none;
-	color: $color_1;
-	font-family: map-get($fuentes, secundaria);
 }
 .dropdown {
 	margin-left: 40px;
+	margin-right: 100px;
 	display: grid;
 	grid-template-columns: repeat(6, 100px);
 	justify-content: flex-start;
-	margin-right: 100px;
-	margin-left: 40px;
-	display: grid;
-	grid-template-columns: repeat(6, 100px);
-	justify-content: flex-start;
-	margin-right: 100px;
 	.btn {
-		padding: 10px 20px;
-		grid-column: 1 / 2;
-		align-items: center;
-		justify-content: center;
-		margin: 0;
-		color: $color_5;
-		background-color: $background-color_2;
 		padding: 10px 20px;
 		grid-column: 1 / 2;
 		align-items: center;
@@ -75,26 +55,13 @@
 	margin-bottom: 50px;
 	column-gap: 20px;
 	row-gap: 30px;
-	display: grid;
-	grid-template-columns: repeat(4, 300px);
-	justify-content: center;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	column-gap: 20px;
-	row-gap: 30px;
 	img {
 		align-items: center;
 		justify-self: center;
 		border-radius: 10px;
 		max-width: 300px;
 		max-height: 400px;
-		align-items: center;
-		justify-self: center;
-		border-radius: 10px;
-		max-width: 300px;
-		max-height: 400px;
 		&:hover {
-			filter: brightness(80%);
 			filter: brightness(80%);
 		}
 	}
@@ -104,17 +71,14 @@
 		font-family: map-get($fuentes, secundaria);
 		font-weight: 600;
 		margin-top: 10px;
+	}
+	p {
 		font-family: map-get($fuentes, secundaria);
-		font-weight: 600;
-		margin-top: 10px;
+		font-weight: 400;
+		text-align: left;
 	}
 }
 .page-link {
-	list-style: none;
-	text-decoration: none;
-	color: $color_1;
-	background-color: $background-color_1;
-	margin-bottom: 20px;
 	list-style: none;
 	text-decoration: none;
 	color: $color_1;

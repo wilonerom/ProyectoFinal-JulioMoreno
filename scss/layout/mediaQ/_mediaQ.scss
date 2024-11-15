@@ -690,6 +690,14 @@
 			max-height: 270px;
 		}
 	}
+	.producto-content{
+		h6 {
+			font-size: .875rem;
+		}
+		p {
+			font-size: .75rem;
+		}
+	}
 }
 @media (max-width: 376px) {
 	.grid-container {
